@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Tajawal Light";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../ttf/light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tajawal Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../ttf/regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tajawal Medium";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../ttf/medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tajawal Bold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../ttf/bold.ttf") format("truetype");
+}

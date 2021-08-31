@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar-MA">
+
+<head>
+    <title>راديووو | تواصل مع المطور</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:title" content="تواصل مع المطور" />
+    <meta property="og:site_name" content="Radyooo" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="images/radyooo.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta property="og:url" content="https://i7zaari.github.io/radyooo/contact.html/" />
+    <meta property="og:locale" content="ar-MA" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@radyooo" />
+    <meta name="twitter:creator" content="@radyooo" />
+    <meta name="twitter:title" content="تواصل مع المطور" />
+    <meta name="twitter:image" content="images/radyooo.jpg" />
+    <meta name="twitter:url" content="https://i7zaari.github.io/radyooo/contact.html/" />
+
+    <link rel="icon" href="icons/favicon/inactive.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="contact">
+        <div class="container">
+            <header>
+                <nav>
+                    <a href="index.html" class="back">
+                        رجوع
+                    </a>
+                </nav>
+            </header>
+            <div class="formContainer">
+                <form action="https://formsubmit.co/i7zaari@yandex.com" method="POST">
+                    <label for="name">الإسم ديالك:</label>
+                    <input type="text" name="Name" id="name" maxlength="50" pattern="^[a-zA-Z\s]{3,}|[أ-ي\s]{3,}$"
+                        title="الإسم لازم يكون مكون من حروف أبجدية عربية أو لاتينية فقط بدون أي أرقام أو رموز"
+                        dir="auto" required>
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" name="Email" id="email" maxlength="320" pattern="^[a-z0-9._-]+@[a-z]+\.[a-z]+$"
+                        title="ضروري خاص تكون @ و ٠ فالبريد الإلكتروني" dir="auto" required>
+                    <label for="message">الرسالة:</label>
+                    <textarea name="Message" id="message" minlength="1" dir="auto" required></textarea>
+                    <input type="hidden" name="_next" value="https://i7zaari.github.io/radyooo/message-sent.html/">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit">إرسال</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
