@@ -599,6 +599,7 @@ svg.clicked .pause {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: wait;
 }
 
 .preloader div {
