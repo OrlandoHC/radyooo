@@ -299,6 +299,7 @@ a:hover {
 .player.maximized {
     height: 100%;
     cursor: zoom-out;
+    z-index: 3;
 }
 
 .player .container {
@@ -749,7 +750,7 @@ svg.clicked .pause {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        z-index: 2;
+        z-index: 1;
     }
 
     .homeHeader nav .left-links.visible {
