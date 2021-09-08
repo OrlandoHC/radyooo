@@ -19,23 +19,15 @@
     --grape-0: #a56de2;
     --grape-1: #7239b3;
 
-    --light: "Tajawal Light";
-    --regular: "Tajawal Regular";
-    --medium: "Tajawal Medium";
-    --bold: "Tajawal Bold";
+    --font-family: "Tajawal", Helvetica, Arial, sans-serif;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
 
     --border-radius: 16px;
     --duration: 250ms;
     --timing-fn: ease-in-out;
-}
-
-html {
-    background-color: var(--default-3);
-    color: var(--default-0);
-    font-size: 20px;
-    font-family: var(--regular);
-    scroll-behavior: smooth;
-    direction: rtl;
 }
 
 * {
@@ -50,13 +42,23 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
+html {
+    background-color: var(--default-3);
+    color: var(--default-0);
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: var(--regular);
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: var(--medium);
+    font-weight: var(--medium);
 }
 
 a {
@@ -113,7 +115,7 @@ a:hover {
 
 .homeHeader nav a {
     color: var(--default-0);
-    font-family: var(--medium);
+    font-weight: var(--medium);
 }
 
 .homeHeader nav a:hover {
@@ -158,7 +160,7 @@ a:hover {
 .homeHeader h1 {
     font-size: 2.5rem;
     line-height: 1.25;
-    font-family: var(--bold);
+    font-weight: var(--bold);
 }
 
 .homeHeader p {
@@ -172,7 +174,7 @@ a:hover {
     color: var(--default-0);
     padding: 12px 24px;
     border-radius: calc(var(--border-radius) / 2);
-    font-family: var(--medium);
+    font-weight: var(--medium);
     transition: background-color var(--duration) var(--timing-fn);
 }
 
@@ -212,7 +214,7 @@ a:hover {
 
 .station::after {
     content: attr(data-name);
-    font-family: var(--medium);
+    font-weight: var(--medium);
     position: absolute;
     bottom: 8px;
     opacity: 0;
@@ -430,7 +432,7 @@ svg.clicked .pause {
 .back {
     background-color: var(--strawberry-0);
     padding: 12px 48px;
-    font-family: var(--medium);
+    font-weight: var(--medium);
     border-radius: calc(var(--border-radius) / 2);
     color: var(--default-0);
 }
@@ -453,7 +455,7 @@ svg.clicked .pause {
 
 .contact label {
     margin-bottom: 10px;
-    font-family: var(--medium);
+    font-weight: var(--medium);
 }
 
 .contact form input,
@@ -487,7 +489,8 @@ svg.clicked .pause {
     background-color: var(--grape-0);
     border: none;
     font-size: inherit;
-    font-family: var(--medium);
+    font-family: inherit;
+    font-weight: var(--medium);
     color: inherit;
     width: 100%;
     border-radius: var(--border-radius);
@@ -561,7 +564,7 @@ svg.clicked .pause {
     display: block;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    font-family: var(--medium);
+    font-weight: var(--medium);
 }
 
 .about .container>div {
