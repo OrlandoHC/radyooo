@@ -49,7 +49,6 @@ html {
     font-family: var(--font-family);
     font-weight: var(--regular);
     scroll-behavior: smooth;
-    direction: rtl;
 }
 
 h1,
@@ -152,7 +151,7 @@ a:hover {
 
 .homeHeader .container>div {
     height: 100%;
-    margin-top: -144px;
+    margin-top: -219px;
     display: flex;
     align-items: center;
 }
@@ -161,6 +160,7 @@ a:hover {
     font-size: 2.5rem;
     line-height: 1.25;
     font-weight: var(--bold);
+    padding: auto;
 }
 
 .homeHeader p {

@@ -1,4 +1,4 @@
-const logoTitle = "راديووو";
+const logoTitle = "NNR";
 
 const preloader = document.querySelector(".preloader");
 const body = document.querySelector("body");
